@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Prueba de AJAX</title>
   </head>
   <body>
     <h1>Listado de Estudiantes</h1>
@@ -17,22 +17,24 @@
       <tbody></tbody>
     </table>
     <button id="btnActualizar" type="button">Actualizar Lista</button>
+
     <hr>
+
     <fieldset>
-      <legend>Agregar estudiantes</legend>
+      <legend>Agregar estudiante</legend>
       <label for="first_name">Nombre:</label>
-      <input type="text" name="first_name">
+      <input type="text" id="first_name">
       <br>
       <label for="last_name">Apellido:</label>
-      <input type="text" name="last_name">
+      <input type="text" id="last_name">
       <br>
-      <label for="email">Nombre:</label>
-      <input type="text" name="email">
+      <label for="email">Correo electrónico:</label>
+      <input type="text" id="email">
       <br>
-      <label for="phone_number">Nombre:</label>
-      <input type="text" name="phone_number">
+      <label for="phone_number">Teléfono:</label>
+      <input type="text" id="phone_number">
       <br>
-      <button type="button">Guardar</button>
+      <button type="button" id="btnGuardar">Guardar</button>
     </fieldset>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
