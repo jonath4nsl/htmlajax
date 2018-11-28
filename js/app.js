@@ -14,6 +14,7 @@ function Actualizar()
           var response = JSON.parse(this.responseText);
                 if(response.status == "ok")
                 {
+                    document.getElementsByTagName('tbody')[0].innerHTML = "";
                     response.students.forEach(function(student)
                     {
                       var row = document.createElement("tr");
