@@ -3,7 +3,7 @@ var btnActualizar = document.getElementById('btnActualizar');
 
 //agregar un event listener para cada click
 btnActualizar.addEventListener('click',Actualizar);
-
+ Actualizar();
 function Actualizar()
     {
       var xhttp = new XMLHttpRequest();
